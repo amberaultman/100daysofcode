@@ -1,0 +1,28 @@
+@charset "utf-8"
+
+@import "bourbon"
+@import "base/base"
+@import "neat"
+
+body
+  color: white
+  background-color: $green
+
+a
+  color: $yellow
+  text-decoration: none
+
+section
+  +outer-container
+  +pad(0 20px 0 20px)
+
+// Sections
+section.day1
+  h1
+    font-family: $base-font-family
+    font-size: 7em
+    font-weight: 700
+    margin-bottom: .2em
+    span
+      font-weight: 400
+      font-size: .4em
