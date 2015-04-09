@@ -13,8 +13,10 @@ a
   text-decoration: none
 
 section
-  +outer-container
-  +pad(0 20px 0 20px)
+  padding: 70px 0
+  article
+    +outer-container
+    +pad(0 20px 0 20px)
 
 // Sections
 section.day1
@@ -26,3 +28,8 @@ section.day1
     span
       font-weight: 400
       font-size: .4em
+
+section.day3
+  background-color: $pink
+  img
+    margin-bottom: 30px
