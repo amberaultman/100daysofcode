@@ -12,6 +12,11 @@ a
   color: $yellow
   text-decoration: none
 
+.center
+  text-align: center
+  margin: 0 auto
+
+// General structure
 section
   padding: 50px 0
   article
@@ -19,21 +24,19 @@ section
     position: relative
     padding: 0 20px
     aside.timeline
-      text-indent: -9999px
       background: url('/images/line.png') repeat-y
       position: absolute
       top: -50px
-      left: -20px
-
-.center
-  text-align: center
-  margin: 0 auto
+      left: -30px
+      h6
+        color: $black
+        margin-left: -12px
+        margin-top: 53px
 
 // Nav
 nav
   background-color: $black
   section
-    +outer-container
     padding: 20px
     article
       h5, p
@@ -47,9 +50,13 @@ nav
 header
   background-color: $dark-gray
   section
-    +outer-container
     padding: 50px 0
     article
+      aside.timeline
+        text-indent: -9999px
+        background: url('/images/line-white.png') repeat-y
+        height: 120px
+        top: 155px
       p
         font-size: 22px
         line-height: $base-line-height * 1.1
@@ -58,7 +65,9 @@ header
 section.day1
   background-color: $green
   aside.timeline
-    height: 500px
+    height: 590px
+    h6
+      background-color: $green
   h1
     font-family: $base-font-family
     font-size: 7em
@@ -72,7 +81,9 @@ section.day3
   background-color: $pink
   color: $black
   aside.timeline
-    height: 500px
+    height: 540px
+    h6
+      background-color: $pink
   img
     max-width: 500px
     margin-bottom: 30px
