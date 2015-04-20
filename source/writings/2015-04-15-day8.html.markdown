@@ -1,0 +1,9 @@
+---
+title: Day Eight
+date: 2015-04-15 00:00 UTC
+tags: 100daysofcode
+---
+
+![Day 8](images/day8.jpg)
+
+I owned the timeline today! Man, it felt good. Today I worked from the [Lean UX conference](http://2016.leanuxnyc.co/) in NYC. Such a great venue. Although, I've gotta admit, it's hard trying to code and listen at the same time. Note to self: you're not a good multi-tasker, so stop it.

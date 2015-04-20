@@ -1,0 +1,9 @@
+---
+title: Day Eleven
+date: 2015-04-20 10:23 UTC
+tags: 100daysofcode
+---
+
+God bless [Danilo Quilaton](http://www.daniloquilaton.com/)! He helped me understand some of the stuff I've been struggling with (like restarting the Middleman server when you make path changes.) I'm about halfway done with updating the articles with my old posts.
+
+Oh! And I learned a little Markdown language today too! Middleman uses Markdown for they're blog posts. They say you can use any language. Maybe I'll change it to HAML eventually. But I seem to remember reading somewhere that Markdown is better than HAML for content. If you have an opinion either way, let me know!

@@ -1,0 +1,7 @@
+---
+title: Day Nine
+date: 2015-04-16 00:00 UTC
+tags: 100daysofcode
+---
+
+So today I installed the Middleman blogging gem. And woah, buddy do I have a lot to learn. I was pretty overwhelmed once I saw all the Ruby files that it created. I spent the hour picking through the files trying to understand what's there and how it's all linked together, but I'm still pretty confused. I left the site pretty unkept today, so I didn't end up deploying to Heroku today, but you can see the changes on Github. To be continued...

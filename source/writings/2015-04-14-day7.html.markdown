@@ -1,0 +1,7 @@
+---
+title: Day Seven
+date: 2015-04-14 00:28 UTC
+tags: 100daysofcode
+---
+
+So today is actually looped in with "yesterday's". I spent waaaay too much time trying to figure out the timeline. See Day 6 for more details.

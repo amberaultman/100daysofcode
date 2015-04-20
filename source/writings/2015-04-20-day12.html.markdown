@@ -1,0 +1,9 @@
+---
+title: Day Twelve
+date: 2015-04-20 15:24 UTC
+tags: 100daysofcode
+---
+
+So today, I finally fixed the issue with not being able to push to Heroku. It took forever! For some reason it was saying that `$black` was undefined even though it was clearly defined in my `_variables.sass` file and that file was clearly imported correctly in front of my global.css.sass file. Massive thanks again to Danilo, who helped me check everything. Even he agreed after looking over everything that there's no reason for it to be giving an error. Sooooo, I ended up just working around it. Since there wasn't much code in my global.css.sass file anyway (I had only created it to try and be more modular with my css), I decided to just get rid of the file and put that code into the main body of my all.css.sass file. Error fixed. Sheesh.
+
+That said, I really do hate not understanding the reason for the error, if you have any thoughts, shoot me an [email](mailto:amber.aultman@gmail.com) or comment on [Github](http://bit.ly/ambergithub).

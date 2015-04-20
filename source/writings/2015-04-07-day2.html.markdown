@@ -1,7 +1,7 @@
 ---
 title: Day Two
 date: 2015-04-07
-tags: code, design
+tags: 100daysofcode, design
 ---
 
 Man, do you have any idea how hard it is to not dive into the design right now? Do you know how hard it is for me to post this even though the design is no where near ready to show? But hey, that's what this exercise is about, right?

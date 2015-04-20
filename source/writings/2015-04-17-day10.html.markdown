@@ -1,0 +1,9 @@
+---
+title: Day Ten
+date: 2015-04-17 00:00 UTC
+tags: 100daysofcode
+---
+
+Today was more of the same. Still struggling to understand this blogging code. I'm looking forward to being back in the office so that I can bug my awesome coworkers to help me understand. ;)
+
+I made a few other organizational changes. Nothing major though.
