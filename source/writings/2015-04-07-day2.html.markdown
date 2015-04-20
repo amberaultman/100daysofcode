@@ -1,0 +1,9 @@
+---
+title: Day Two
+date: 2015-04-07
+tags: code, design
+---
+
+Man, do you have any idea how hard it is to not dive into the design right now? Do you know how hard it is for me to post this even though the design is no where near ready to show? But hey, that's what this exercise is about, right?
+
+Today I started applying Neat and Bitters and adding some custom styles.

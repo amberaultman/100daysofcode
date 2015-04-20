@@ -1,0 +1,9 @@
+---
+title: Day Four
+date: 2015-04-12 21:52 UTC
+tags: code
+---
+
+So, I'm playing a little bit of catch up here. [One Spark](http://beonespark.com) through a wrench in my week. But! I'm gonna do two sessions a day for the next two days to get caught up.
+
+Day 4 was about adding a nav bar and a few other tweaks.

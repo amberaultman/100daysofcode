@@ -1,0 +1,9 @@
+---
+title: Day5
+date: 2015-04-12 22:57 UTC
+tags: code
+---
+
+![Day 5 progress](images/day5.jpg)
+
+I added a little header with some information about me. I also added a ReadMe so that anyone finding me on Github would have some idea of what I'm trying to do here. By the way, if you have zero things to do and want to see the code pre-processor code to this site, check out my [Github](http://bit.ly/ambercode).
