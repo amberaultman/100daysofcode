@@ -6,6 +6,4 @@ tags: 100daysofcode
 
 Today I had a really great front-end dev meeting with Danilo and Jason (our other design/front-enders.) Ignite is going to be slowly giving me more coding projects (YAY!) and so they wanted to talk about code reviews and being consistent across the team so that any of us can jump into anyone else's code and get to work. So we worked out a semantic structure that we'll be using moving forward. I'm so excited to get to learn from their code and have them start reviewing mine to make sure I'm doing things the best way I can be. I love my team so hard. :)
 
-Test
-
-test 2
+I also learned how to make pull requests in Github. And adjust some structure stuff to make this project more consistent with the above mentioned structure. 
