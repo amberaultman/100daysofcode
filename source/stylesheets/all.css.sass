@@ -8,8 +8,8 @@
 @import "components/*"
 
 body
-  color: white
-  background-color: $black
+  color: $black
+  background-color: white
 
 a
   color: $yellow
@@ -33,3 +33,47 @@ header
       p
         font-size: 22px
         line-height: $base-line-height * 1.1
+
+// General structure
+section
+  padding: 50px 0
+  article
+    +outer-container
+    position: relative
+    padding: 0 20px
+    aside.timeline
+      background: url('/images/line.png') repeat-y
+      position: absolute
+      top: -50px
+      left: -30px
+      h6
+        color: $black
+        margin-left: -12px
+        margin-top: 53px
+
+// Sections
+section.day1
+  background-color: $green
+  aside.timeline
+    height: 590px
+    h6
+      background-color: $green
+  h1
+    font-family: $base-font-family
+    font-size: 7em
+    font-weight: 700
+    margin-bottom: .2em
+    span
+      font-weight: 400
+      font-size: .4em
+
+section.day3
+  background-color: $pink
+  color: $black
+  aside.timeline
+    height: 540px
+    h6
+      background-color: $pink
+  img
+    max-width: 500px
+    margin-bottom: 30px
