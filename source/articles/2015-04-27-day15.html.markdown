@@ -1,0 +1,8 @@
+---
+title: Day Fifteen
+date: 2015-04-27 13:38 UTC
+tags: 100daysofcode
+layout: article_layout.erb
+---
+
+Welp, today I tried to tackle [nested layouts](https://middlemanapp.com/basics/layouts/#nested-layouts) from Middleman. I couldn't get it to work and I've run out of time today. Hoping to figure it out tomorrow.
