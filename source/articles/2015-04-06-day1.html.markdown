@@ -2,6 +2,7 @@
 title: Day One
 date: 2015-04-06
 tags: 100daysofcode, bourbon
+layout: article_layout
 ---
 
 Today won't look like much, but the work is there. I created the project with Middleman, added it to Github, pushed it live on Heroku, and installed Bourbon, Neat, and Bitters. This will give me the structure that I need for the next 100 days. Pow.
