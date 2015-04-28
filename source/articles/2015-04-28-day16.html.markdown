@@ -1,0 +1,7 @@
+---
+title: Day Sixteen
+date: 2015-04-28 13:32 UTC
+tags: 100daysofcode
+---
+
+Today I updated all of my Bitters files from .scss to .sass. Pretty damn easy. Hoping to sneak in another "day" later this afternoon or evening. We'll see.
