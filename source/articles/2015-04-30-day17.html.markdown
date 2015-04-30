@@ -1,0 +1,9 @@
+---
+title: Day Seventeen
+date: 2015-04-30 04:02 UTC
+tags: 100daysofcode
+---
+
+Today I tried to convert some footer code from Ruby to HAML. I got so so close. But still no cigar. I'll figure it out soon. I'm actually really proud of myself for getting this far. I didn't use a converter or anything! I read the HAML docs and tried to figure it out on my own. 90% there... (I did try a converter after I kept getting an error 100 times trying different things, but it didn't really tell me anything I hadn't already figured out.)
+
+Yesterday my coworker Jimmy helped me understand Ruby a little better. He also helped me understand why my nested layouts weren't working: it WAS working, just not on the page I was expecting it to work on. Derp.
