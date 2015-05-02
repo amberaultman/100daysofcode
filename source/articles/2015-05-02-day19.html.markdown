@@ -1,0 +1,7 @@
+---
+title: Day Nineteen
+date: 2015-05-02 12:50 UTC
+tags: 100daysofcode
+---
+
+Yes! ERB to HAML complete! It's amazing how one little misplaced comma or wrong indentation can ruin it all. Aaaaand, I also learned... when in doubt, bounce dat server!
