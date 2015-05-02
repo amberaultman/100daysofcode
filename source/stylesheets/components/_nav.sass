@@ -1,12 +1,24 @@
 nav
+  position: fixed
+  width: 100%
   background-color: $black
   section
-    padding: 20px
     article
-      h5, p
-        color: white
+      ul
         display: inline-block
-        margin-bottom: 0
-      p
-        color: $green
-        float: right
+        font-family: $heading-font-family
+        font-weight: 700
+        li
+          display: inline-block
+          color: white
+          margin-bottom: 0
+          a
+            color: $yellow
+            &:hover
+              color: $yellow
+              text-decoration: underline
+        &.right-menu
+          float: right
+          font-size: rem(12)
+          li
+            margin-left: rem(30)
