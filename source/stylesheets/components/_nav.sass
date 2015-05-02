@@ -1,4 +1,6 @@
 nav
+  position: fixed
+  width: 100%
   background-color: $black
   section
     article
@@ -12,7 +14,11 @@ nav
           margin-bottom: 0
           a
             color: $yellow
+            &:hover
+              color: $yellow
+              text-decoration: underline
         &.right-menu
           float: right
+          font-size: rem(12)
           li
-            margin-left: rem(20)
+            margin-left: rem(30)
