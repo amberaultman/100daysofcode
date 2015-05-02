@@ -1,0 +1,9 @@
+---
+title: Day Eighteen
+date: 2015-05-01 04:10 UTC
+tags: 100daysofcode
+---
+
+Welp, Danilo helped me figure out what was causing the error with my footer conversion from ERB to HAML: a comma. One measly comma. But honestly, I was pretty damn proud of myself that I got that close on my own.
+
+AND THEN... emboldened by my near success, I took on the layout.erb file and tried to convert it to HAML. Stuck again! This time, when I consulted the converter and copied and pasted in that code, it still didn't work! Grrrr. To be continued... 
