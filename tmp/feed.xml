@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/articles</id>
+  <link href="http://blog.url.com/articles"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2015-05-02T08:50:00-04:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Day Nineteen</title>
+    <link rel="alternate" href="http://blog.url.com/articles/2015/05/02/day19.html"/>
+    <id>http://blog.url.com/articles/2015/05/02/day19.html</id>
+    <published>2015-05-02T08:50:00-04:00</published>
+    <updated>2015-05-04T17:18:36-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Yes! ERB to HAML complete! It's amazing how one little misplaced comma or wrong indentation can ruin it all. Aaaaand, I also learned… when in doubt, bounce dat server!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Day Eighteen</title>
+    <link rel="alternate" href="http://blog.url.com/articles/2015/05/01/day18.html"/>
+    <id>http://blog.url.com/articles/2015/05/01/day18.html</id>
+    <published>2015-05-01T00:10:00-04:00</published>
+    <updated>2015-05-02T09:08:25-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Welp, Danilo helped me figure out what was causing the error with my footer conversion from ERB to HAML: a comma. One measly comma. But honestly, I was pretty damn proud of myself that I got that close on my own.&lt;/p&gt;
+
+&lt;p&gt;AND THEN… emboldened by my near success, I took on the layout.erb file and tried to convert it to HAML. Stuck again! This time, when I consulted the converter and copied and pasted in that code, it still didn't work! Grrrr. To be continued…&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Day Seventeen</title>
+    <link rel="alternate" href="http://blog.url.com/articles/2015/04/30/day17.html"/>
+    <id>http://blog.url.com/articles/2015/04/30/day17.html</id>
+    <published>2015-04-30T00:02:00-04:00</published>
+    <updated>2015-04-30T00:10:15-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Today I tried to convert some footer code from Ruby to HAML. I got so so close. But still no cigar. I'll figure it out soon. I'm actually really proud of myself for getting this far. I didn't use a converter or anything! I read the HAML docs and tried to figure it out on my own. 90% there… (I did try a converter after I kept getting an error 100 times trying different things, but it didn't really tell me anything I hadn't already figured out.)&lt;/p&gt;
+
+&lt;p&gt;Yesterday my coworker Jimmy helped me understand Ruby a little better. He also helped me understand why my nested layouts weren't working: it WAS working, just not on the page I was expecting it to work on. Derp.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Day Sixteen</title>
+    <link rel="alternate" href="http://blog.url.com/articles/2015/04/28/day16.html"/>
+    <id>http://blog.url.com/articles/2015/04/28/day16.html</id>
+    <published>2015-04-28T09:32:00-04:00</published>
+    <updated>2015-04-28T09:36:23-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Today I updated all of my Bitters files from .scss to .sass. Pretty damn easy. Hoping to sneak in another "day" later this afternoon or evening. We'll see.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Day Fifteen</title>
+    <link rel="alternate" href="http://blog.url.com/articles/2015/04/27/day15.html"/>
+    <id>http://blog.url.com/articles/2015/04/27/day15.html</id>
+    <published>2015-04-27T09:38:00-04:00</published>
+    <updated>2015-05-04T17:18:21-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Welp, today I tried to tackle &lt;a href="https://middlemanapp.com/basics/layouts/#nested-layouts"&gt;nested layouts&lt;/a&gt; from Middleman. I couldn't get it to work and I've run out of time today. Hoping to figure it out tomorrow.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Day Fourteen</title>
+    <link rel="alternate" href="http://blog.url.com/articles/2015/04/23/day14.html"/>
+    <id>http://blog.url.com/articles/2015/04/23/day14.html</id>
+    <published>2015-04-23T17:04:00-04:00</published>
+    <updated>2015-04-27T09:34:20-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I wasn't able to spend as much time today as I'd have liked, but I started playing with styling the blog. Just some basic stuff for now. More to come…&lt;/p&gt;
+</content>
+  </entry>
+</feed>
