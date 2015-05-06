@@ -7,8 +7,8 @@
       &#35;100daysofcode
     </title>
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/articles/feed.xml" />
-    <link href="/stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
-    <script src="/javascripts/all.js" type="text/javascript"></script>
+    <link href="stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <script src="javascripts/all.js" type="text/javascript"></script>
   </head>
   <body>
     <div id='main' role='main'>
@@ -53,12 +53,30 @@
           </article>
         </section>
       </header>
+      <p>Page 1 of 3</p>
+      <p>
+        <a href="/page/2/">Next page</a>
+      </p>
       <section>
         <article>
-          <p>Page 1 of 2</p>
-          <p>
-            <a href="/page/2/">Next page</a>
-          </p>
+          <h2>
+            <a href="/articles/2015/05/05/day21.html">Day Twenty One</a>
+            <span>May  5</span>
+          </h2>
+          <p>Today my awesome coworker <a href="http://cronfu.com/">Jimmy Thai</a> helped me get to the bottom of my Heroku issue. One major reason for the errors was that I had forgotten to add _  before some of my partial Sass files. That was making the code run twice and was causing an undefined variable error. Noted!</p>
+          
+          <p>He also explained that Heroku wasn't really the best home for a static site like this. So, we moved my site over to Github pages.</p>
+        </article>
+      </section>
+      <section>
+        <article>
+          <h2>
+            <a href="/articles/2015/05/05/day20.html">Day Twenty</a>
+            <span>May  5</span>
+          </h2>
+          <p>I forgot to add this blog post on Saturday…</p>
+          
+          <p>Today I added a header and started styling the nav and footers. Not much style, but I started thinking about things and getting stuff organized. I also better organized my CSS. For some reason it appears that when I merged my day-20 branch in Github, it reverted some of my changes. Weird. Adding them back in now. I need to figure out what happened with that…</p>
         </article>
       </section>
       <section>
@@ -141,33 +159,19 @@
           <p>That said, I really do hate not understanding the reason for the error, if you have any thoughts, shoot me an <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#097;&#109;&#098;&#101;&#114;&#046;&#097;&#117;&#108;&#116;&#109;&#097;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">email</a> or comment on <a href="http://bit.ly/ambergithub">Github</a>.</p>
         </article>
       </section>
-      <section>
-        <article>
-          <h2>
-            <a href="/articles/2015/04/20/day11.html">Day Eleven</a>
-            <span>Apr 20</span>
-          </h2>
-          <p>God bless <a href="http://www.daniloquilaton.com/">Danilo Quilaton</a>! He helped me understand some of the stuff I've been struggling with (like restarting the Middleman server when you make path changes.) I'm about halfway done with updating the articles with my old posts.</p>
-          
-          <p>Oh! And I learned a little Markdown language today too! Middleman uses Markdown for they're blog posts. They say you can use any language. Maybe I'll change it to HAML eventually. But I seem to remember reading somewhere that Markdown is better than HAML for content. If you have an opinion either way, let me know!</p>
-        </article>
-      </section>
-      <section>
-        <article>
-          <h2>
-            <a href="/articles/2015/04/17/day10.html">Day Ten</a>
-            <span>Apr 17</span>
-          </h2>
-          <p>Today was more of the same. Still struggling to understand this blogging code. I'm looking forward to being back in the office so that I can bug my awesome coworkers to help me understand. ;)</p>
-          
-          <p>I made a few other organizational changes. Nothing major though.</p>
-        </article>
-      </section>
       <footer>
         <section>
           <article>
             <h2>Recent Articles</h2>
             <ol>
+              <li>
+                <a href="/articles/2015/05/05/day21.html">Day Twenty One</a>
+                <span>May  5</span>
+              </li>
+              <li>
+                <a href="/articles/2015/05/05/day20.html">Day Twenty</a>
+                <span>May  5</span>
+              </li>
               <li>
                 <a href="/articles/2015/05/02/day19.html">Day Nineteen</a>
                 <span>May  2</span>
@@ -200,19 +204,11 @@
                 <a href="/articles/2015/04/20/day12.html">Day Twelve</a>
                 <span>Apr 20</span>
               </li>
-              <li>
-                <a href="/articles/2015/04/20/day11.html">Day Eleven</a>
-                <span>Apr 20</span>
-              </li>
-              <li>
-                <a href="/articles/2015/04/17/day10.html">Day Ten</a>
-                <span>Apr 17</span>
-              </li>
             </ol>
             <h2>Tags</h2>
             <ol>
               <li>
-                <a href="/articles/tags/100daysofcode.html">100daysofcode (19)</a>
+                <a href="/articles/tags/100daysofcode.html">100daysofcode (21)</a>
               </li>
               <li>
                 <a href="/articles/tags/bourbon.html">bourbon (1)</a>
@@ -224,7 +220,7 @@
             <h2>By Year</h2>
             <ol>
               <li>
-                <a href="/articles/2015.html">2015 (19)</a>
+                <a href="/articles/2015.html">2015 (21)</a>
               </li>
             </ol>
           </article>

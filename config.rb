@@ -32,6 +32,10 @@ end
 page "/feed.xml", layout: false
 page "articles/*", :layout => :article_layout
 
+activate :deploy do |deploy|
+  deploy.method = :git
+end
+
 ###
 # Compass
 ###
@@ -101,7 +105,7 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"

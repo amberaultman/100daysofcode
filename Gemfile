@@ -8,6 +8,7 @@ gem 'rack-contrib'
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
+gem 'middleman-deploy', '~> 1.0'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"

@@ -21,15 +21,13 @@ pageable: true
         = link_to 'drop me a line', 'mailto:amber.aultman@gmail.com'
         to say hello.
 - if paginate && num_pages > 1
-  %section
-    %article
-      %p Page #{page_number} of #{num_pages}
-      - if prev_page
-        %p
-          = link_to 'Previous page', prev_page
-      - if next_page
-        %p
-          = link_to 'Next page', next_page
+  %p Page #{page_number} of #{num_pages}
+  - if prev_page
+    %p
+      = link_to 'Previous page', prev_page
+  - if next_page
+    %p
+      = link_to 'Next page', next_page
 - page_articles.each do |article|
   %section
     %article

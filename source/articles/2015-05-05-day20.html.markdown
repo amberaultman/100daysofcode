@@ -1,0 +1,9 @@
+---
+title: Day Twenty
+date: 2015-05-05 03:35 UTC
+tags: 100daysofcode
+---
+
+I forgot to add this blog post on Saturday...
+
+Today I added a header and started styling the nav and footers. Not much style, but I started thinking about things and getting stuff organized. I also better organized my CSS. For some reason it appears that when I merged my day-20 branch in Github, it reverted some of my changes. Weird. Adding them back in now. I need to figure out what happened with that...

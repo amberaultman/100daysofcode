@@ -1,0 +1,9 @@
+---
+title: Day Twenty One
+date: 2015-05-05 03:35 UTC
+tags: 100daysofcode
+---
+
+Today my awesome coworker [Jimmy Thai](http://cronfu.com/) helped me get to the bottom of my Heroku issue. One major reason for the errors was that I had forgotten to add _  before some of my partial Sass files. That was making the code run twice and was causing an undefined variable error. Noted! 
+
+He also explained that Heroku wasn't really the best home for a static site like this. So, we moved my site over to Github pages.
