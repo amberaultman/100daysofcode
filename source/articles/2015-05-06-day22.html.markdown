@@ -1,0 +1,15 @@
+---
+title: Day Twenty-Two
+date: 2015-05-06 04:54 UTC
+tags: 100daysofcode
+---
+
+    // Buttons
+    %button.clean
+      %i.fa.fa-long-arrow-left
+      = link_to 'Previous', prev_page
+    %button.clean
+      = link_to 'Next', next_page
+      %i.fa.fa-long-arrow-right
+
+Today I styled the next and previous buttons at the bottom of the page. I also added Font Awesome for icons. I need to find out if there's a way to inject HAML into Markdown. If there's not, I may need to start writing these article pages in HAML.

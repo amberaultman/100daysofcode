@@ -20,14 +20,6 @@ pageable: true
         or you can
         = link_to 'drop me a line', 'mailto:amber.aultman@gmail.com'
         to say hello.
-- if paginate && num_pages > 1
-  %p Page #{page_number} of #{num_pages}
-  - if prev_page
-    %p
-      = link_to 'Previous page', prev_page
-  - if next_page
-    %p
-      = link_to 'Next page', next_page
 - page_articles.each do |article|
   %section
     %article
@@ -35,3 +27,14 @@ pageable: true
         = link_to article.title, article
         %span= article.date.strftime('%b %e')
       = article.body
+- if paginate && num_pages > 1
+  %section.page-controls
+    %article.center
+      - if prev_page
+        %button.clean
+          %i.fa.fa-long-arrow-left
+          = link_to 'Previous', prev_page
+      - if next_page
+        %button.clean
+          = link_to 'Next', next_page
+          %i.fa.fa-long-arrow-right
