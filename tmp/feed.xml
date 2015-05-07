@@ -5,10 +5,31 @@
   <id>http://blog.url.com/articles</id>
   <link href="http://blog.url.com/articles"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-05-04T23:35:00-04:00</updated>
+  <updated>2015-05-06T00:54:00-04:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Day Twenty-Two</title>
+    <link rel="alternate" href="http://blog.url.com/articles/2015/05/06/day22.html"/>
+    <id>http://blog.url.com/articles/2015/05/06/day22.html</id>
+    <published>2015-05-06T00:54:00-04:00</published>
+    <updated>2015-05-06T01:07:23-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;pre&gt;&lt;code&gt;// Buttons
+%button.clean
+  %i.fa.fa-long-arrow-left
+  = link_to 'Previous', prev_page
+%button.clean
+  = link_to 'Next', next_page
+  %i.fa.fa-long-arrow-right
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Today I styled the next and previous buttons at the bottom of the page. I also added Font Awesome for icons. I need to find out if there's a way to inject HAML into Markdown. If there's not, I may need to start writing these article pages in HAML.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Day Twenty One</title>
     <link rel="alternate" href="http://blog.url.com/articles/2015/05/05/day21.html"/>
@@ -75,18 +96,6 @@
     <content type="html">&lt;p&gt;Today I tried to convert some footer code from Ruby to HAML. I got so so close. But still no cigar. I'll figure it out soon. I'm actually really proud of myself for getting this far. I didn't use a converter or anything! I read the HAML docs and tried to figure it out on my own. 90% there… (I did try a converter after I kept getting an error 100 times trying different things, but it didn't really tell me anything I hadn't already figured out.)&lt;/p&gt;
 
 &lt;p&gt;Yesterday my coworker Jimmy helped me understand Ruby a little better. He also helped me understand why my nested layouts weren't working: it WAS working, just not on the page I was expecting it to work on. Derp.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Day Sixteen</title>
-    <link rel="alternate" href="http://blog.url.com/articles/2015/04/28/day16.html"/>
-    <id>http://blog.url.com/articles/2015/04/28/day16.html</id>
-    <published>2015-04-28T09:32:00-04:00</published>
-    <updated>2015-04-28T09:36:23-04:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Today I updated all of my Bitters files from .scss to .sass. Pretty damn easy. Hoping to sneak in another "day" later this afternoon or evening. We'll see.&lt;/p&gt;
 </content>
   </entry>
 </feed>
