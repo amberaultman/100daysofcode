@@ -24,7 +24,7 @@ pageable: true
   %section
     %article
       %h2
-        = link_to article.title, article
+        = link_to article.title, article, relative: true
         %span= article.date.strftime('%b %e')
       = article.body
 - if paginate && num_pages > 1
