@@ -33,8 +33,8 @@ pageable: true
       - if prev_page
         %button.clean
           %i.fa.fa-long-arrow-left
-          = link_to 'Previous', prev_page
+          = link_to 'Previous', prev_page, relative: true
       - if next_page
         %button.clean
-          = link_to 'Next', next_page
+          = link_to 'Next', next_page, relative: true
           %i.fa.fa-long-arrow-right
