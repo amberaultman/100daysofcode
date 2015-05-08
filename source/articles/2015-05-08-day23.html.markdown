@@ -1,6 +1,11 @@
 ---
-title: day23
+title: Day Twenty-Three
 date: 2015-05-08 16:06 UTC
-tags:
+tags: 100daysofcode
 ---
 
+(I wasn't able to add this yesterday because of some versioning issues.)
+
+Welp, today was one of those frustrating days. I was trying to install a work project locally and it brought on a whole mess of problems. I basically spent a large part of the afternoon with a coworker trying to figure out the problem which ultimately meant reinstalling ruby on my computer. Which also meant reinstalling rails and middleman. And I just opened it up to start my 100 days project only to get more errors. Grrrrrrrr. TBC...
+
+(So Danilo helped me fix my version issues this morning and now I'm good to go!)

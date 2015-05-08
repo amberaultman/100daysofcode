@@ -4,37 +4,40 @@ pageable: true
 
 %header
   %section
-    %article
-      %h1 hello.
-      %p
-        I’m Amber Aultman, a product designer in Jacksonville, FL. I work at
-        = link_to 'Ignite', 'http://ignitewithus.com'
-        where I’m helping to create products that shape the way we work. I take on a bit of freelance work here and there and I’m loving my role as Communications Director for
-        = link_to 'AIGA Jacksonville.', 'http://jacksonville.aiga.org'
-        You can find me on
-        = link_to 'Twitter,', 'https://twitter.com/amberaultman'
-        = link_to 'Github,', 'https://github.com/amberaultman'
-        = link_to 'Dribbble', 'https://github.com/amberaultman'
-        and
-        = link_to 'Somewhere', 'https://www.somewhere.com/amberaultman'
-        or you can
-        = link_to 'drop me a line', 'mailto:amber.aultman@gmail.com'
-        to say hello.
+    .wrapper
+      %article
+        %h1 hello.
+        %p
+          I’m Amber Aultman, a product designer in Jacksonville, FL. I work at
+          = link_to 'Ignite', 'http://ignitewithus.com'
+          where I’m helping to create products that shape the way we work. I take on a bit of freelance work here and there and I’m loving my role as Communications Director for
+          = link_to 'AIGA Jacksonville.', 'http://jacksonville.aiga.org'
+          You can find me on
+          = link_to 'Twitter,', 'https://twitter.com/amberaultman'
+          = link_to 'Github,', 'https://github.com/amberaultman'
+          = link_to 'Dribbble', 'https://github.com/amberaultman'
+          and
+          = link_to 'Somewhere', 'https://www.somewhere.com/amberaultman'
+          or you can
+          = link_to 'drop me a line', 'mailto:amber.aultman@gmail.com'
+          to say hello.
 - page_articles.each do |article|
   %section
-    %article
-      %h2
-        = link_to article.title, article, relative: true
-        %span= article.date.strftime('%b %e')
-      = article.body
+    .wrapper
+      %article
+        %h2
+          = link_to article.title, article, relative: true
+          %span= article.date.strftime('%b %e')
+        = article.body
 - if paginate && num_pages > 1
   %section.page-controls
-    %article.center
-      - if prev_page
-        %button.clean
-          %i.fa.fa-long-arrow-left
-          = link_to 'Previous', prev_page, relative: true
-      - if next_page
-        %button.clean
-          = link_to 'Next', next_page, relative: true
-          %i.fa.fa-long-arrow-right
+    .wrapper
+      %article.center
+        - if prev_page
+          %button.clean
+            %i.fa.fa-long-arrow-left
+            = link_to 'Previous', prev_page, relative: true
+        - if next_page
+          %button.clean
+            = link_to 'Next', next_page, relative: true
+            %i.fa.fa-long-arrow-right
