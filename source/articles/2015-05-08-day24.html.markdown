@@ -1,9 +1,9 @@
 ---
-title: Day Twenty Four
+title: Day Twenty-Four
 date: 2015-05-08 19:04 UTC
 tags: 100daysofcode
 ---
 
 Today Jimmy helped me fix my relative links issue when creating the site on Github Pages. Sweet!
 
-I started styling the footer and added a .wrapper class to all my layouts so that I could use "section" and "article" more semantically. 
+I started styling the footer and added a .wrapper class to all my layouts so that I could use "section" and "article" more semantically.

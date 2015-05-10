@@ -1,0 +1,7 @@
+---
+title: Day Twenty-Five
+date: 2015-05-10 01:58 UTC
+tags: 100daysofcode
+---
+
+Today I started playing around with the design a bit. I'm finally starting to come up with a plan for this project. I also started streamlining the structure. No need for a footer or pagination. 

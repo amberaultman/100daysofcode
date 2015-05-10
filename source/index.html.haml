@@ -1,5 +1,5 @@
 ---
-pageable: true
+pageable: false
 ---
 
 %header
@@ -29,15 +29,3 @@ pageable: true
           = link_to article.title, article, relative: true
           %span= article.date.strftime('%b %e')
         = article.body
-- if paginate && num_pages > 1
-  %section.page-controls
-    .wrapper
-      %article.center
-        - if prev_page
-          %button.clean
-            %i.fa.fa-long-arrow-left
-            = link_to 'Previous', prev_page, relative: true
-        - if next_page
-          %button.clean
-            = link_to 'Next', next_page, relative: true
-            %i.fa.fa-long-arrow-right
