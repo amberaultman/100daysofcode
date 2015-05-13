@@ -1,5 +1,7 @@
 header
   section
+    background-color: $black
+    color: white
     .wrapper
       article
         h1
@@ -11,3 +13,16 @@ header
           font-size: rem(18)
           line-height: rem(32)
           margin-bottom: rem(30)
+aside.timeline
+  text-indent: -9999px
+  background: url('/images/line.png') repeat-y
+  height: rem(1200)
+  position: absolute
+  left: 30px
+  &.header-timeline
+    background: url('/images/line-white.png') repeat-y
+    height: rem(190)
+    top: rem(360)
+section
+  .wrapper
+    article
