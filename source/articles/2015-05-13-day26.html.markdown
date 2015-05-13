@@ -1,0 +1,7 @@
+---
+title: Day Twenty-Six
+date: 2015-05-13 02:52 UTC
+tags: 100daysofcode
+---
+
+So today I started making the transition from coding just a blog to coding a portfolio website for myself. I have a long way to go, but today started with adding a "sub nav". This "sub nav" will actually be a filter of the main timeline, allowing visitors to search through my work/case studies, Dribbble posts, Somewhere posts, and articles. Oh man, so much work to do.
