@@ -1,19 +1,72 @@
 nav
   position: fixed
   width: 100%
-  background-color: white
-  color: $black
   section
-    article
-      ul
+    ul
+      display: inline-block
+      font-family: $heading-font-family
+      font-weight: 700
+      li
         display: inline-block
-        font-family: $heading-font-family
-        font-weight: 700
+        margin-bottom: 0
+      &.right-menu
+        float: right
+        font-size: rem(12)
         li
-          display: inline-block
-          margin-bottom: 0
-        &.right-menu
-          float: right
+          margin-left: rem(30)
+    &.primary-nav
+      background-color: $black
+      color: white
+    &.secondary-nav
+      background-color: white
+      color: $black
+      ul
+        width: 100%
+        li
           font-size: rem(12)
-          li
-            margin-left: rem(30)
+          margin: 0 auto
+          text-align: center
+          padding: 0 0 1rem 0
+          a
+            color: black
+            text-decoration: none
+          &.all
+            width: 15%
+            border-bottom: solid rem(6) $gray
+            &:hover, &:active
+              background-image: url(image_path('triangle-gray.png'))
+              background-repeat: no-repeat
+              background-position: 50% 100%
+              background-size: rem(18)
+          &.work
+            width: 18%
+            border-bottom: solid rem(6) $green
+            &:hover, &:active
+              background-image: url(image_path('triangle-green.png'))
+              background-repeat: no-repeat
+              background-position: 50% 100%
+              background-size: rem(18)
+          &.writing
+            border-bottom: solid rem(6) $yellow
+            width: 22%
+            &:hover, &:active
+              background-image: url(image_path('triangle-yellow.png'))
+              background-repeat: no-repeat
+              background-position: 50% 100%
+              background-size: rem(18)
+          &.dribbble
+            width: 22%
+            border-bottom: solid rem(6) $pink
+            &:hover, &:active
+              background-image: url(image_path('triangle-pink.png'))
+              background-repeat: no-repeat
+              background-position: 50% 100%
+              background-size: rem(18)
+          &.about
+            width: 20%
+            border-bottom: solid rem(6) $red
+            &:hover, &:active
+              background-image: url(image_path('triangle-red.png'))
+              background-repeat: no-repeat
+              background-position: 50% 100%
+              background-size: rem(18)
