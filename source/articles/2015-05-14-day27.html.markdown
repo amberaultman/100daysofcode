@@ -1,0 +1,7 @@
+---
+title: Day Twenty-Seven
+date: 2015-05-14 19:31 UTC
+tags: 100daysofcode
+---
+
+Today I added the timeline back in. It's not entirely complete. But I'm working on it. It's way too static right now. Hoping to be able to figure out how to use javascript to make it interactive soon.
