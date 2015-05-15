@@ -1,0 +1,7 @@
+---
+title: Day Twenty-Eight
+date: 2015-05-15 03:27 UTC
+tags: 100daysofcode
+---
+
+Man, talk about commitment! I made today's updates while in the car driving to Hangout Fest! I worked some more on the timeline and palyed around with the header styles for articles. I also started to think about the article detail pages some more. Check. Check.
