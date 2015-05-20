@@ -1,0 +1,11 @@
+---
+title: Day Twenty-Nine
+date: 2015-05-20 19:35 UTC
+tags: 100daysofcode
+---
+
+(Forgot to post create this article yesterday.)
+
+Today I played around with the box-sizing model to get my borders to line up properly on my nav bar. I'd never messed with that before! Pretty cool.
+
+I also started implementing Isotope, a jQuery library for creating a fluid, tiled grid system. I wasn't able to get it working, but I'll work on it again tomorrow! 
