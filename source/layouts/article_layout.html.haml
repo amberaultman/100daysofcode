@@ -1,4 +1,6 @@
 = wrap_layout :layout do
   %section.blog-detail
-    %article
-      = yield
+    .wrapper
+      %article
+        %button.clean BACK
+        = yield

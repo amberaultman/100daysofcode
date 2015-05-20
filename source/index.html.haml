@@ -31,5 +31,5 @@ pageable: false
       %article
         %h2
           = link_to article.title, article, relative: true
-          %span= article.date.strftime('%b %e')
+          %span.timeline-marker= article.date.strftime('%b %e')
         = article.body
