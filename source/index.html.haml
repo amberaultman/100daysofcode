@@ -25,24 +25,32 @@ pageable: false
           to say hello.
 %aside.timeline
   Everything is awesome
-%section
-  .wrapper#container
+%section.timeline-container
+  #container
+    %article.item.grid-sizer
+      = image_tag 'http://placehold.it/400x300'
     %article.item
-      = image_tag 'http://placehold.it/200x100'
+      = image_tag 'http://placehold.it/400x300'
     %article.item
-      = image_tag 'http://placehold.it/200x100'
+      = image_tag 'http://placehold.it/1200x800'
     %article.item
-      = image_tag 'http://placehold.it/200x100'
+      = image_tag 'http://placehold.it/1200x800'
     %article.item
-      = image_tag 'http://placehold.it/200x100'
-- page_articles.each do |article|
-  %section
-    .wrapper
-      %article
-        %h2
-          = link_to article.title, article, relative: true
-          %span.timeline-marker= article.date.strftime('%b %e')
-        = article.body
+      = image_tag 'http://placehold.it/400x300'
+    %article.item
+      = image_tag 'http://placehold.it/800x300'
+    %article.item
+      = image_tag 'http://placehold.it/400x300'
+    %article.item
+      = image_tag 'http://placehold.it/400x300'
+-# - page_articles.each do |article|
+-#   %section
+-#     .wrapper
+-#       %article
+-#         %h2
+-#           = link_to article.title, article, relative: true
+-#           %span.timeline-marker= article.date.strftime('%b %e')
+-#         = article.body
 
 :javascript
   var $container = $('#container');
@@ -50,5 +58,9 @@ pageable: false
   $container.isotope({
     // options
     itemSelector: '.item',
-    layoutMode: 'fitRows'
+    layoutMode: 'masonry',
+    masonry: {
+      columnWidth: '.grid-sizer',
+      gutter: 10
+    }
   });
