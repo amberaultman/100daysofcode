@@ -1,0 +1,7 @@
+---
+title: Day Thirty
+date: 2015-05-20 19:35 UTC
+tags: 100daysofcode
+---
+
+Today I worked more on figuring out Isotope. I got it working basically, but tomorrow I'd like to dive more into styling and the various options it has. But so far, so good!
