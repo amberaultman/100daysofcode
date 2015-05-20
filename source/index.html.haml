@@ -25,6 +25,16 @@ pageable: false
           to say hello.
 %aside.timeline
   Everything is awesome
+%section
+  .wrapper#container
+    %article.item
+      = image_tag 'http://placehold.it/200x100'
+    %article.item
+      = image_tag 'http://placehold.it/200x100'
+    %article.item
+      = image_tag 'http://placehold.it/200x100'
+    %article.item
+      = image_tag 'http://placehold.it/200x100'
 - page_articles.each do |article|
   %section
     .wrapper
@@ -33,3 +43,12 @@ pageable: false
           = link_to article.title, article, relative: true
           %span.timeline-marker= article.date.strftime('%b %e')
         = article.body
+
+:javascript
+  var $container = $('#container');
+  // init
+  $container.isotope({
+    // options
+    itemSelector: '.item',
+    layoutMode: 'fitRows'
+  });
