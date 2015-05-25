@@ -1,0 +1,7 @@
+---
+title: Day Thirty-One
+date: 2015-05-25 21:58 UTC
+tags: 100daysofcode
+---
+
+Today I started playing around with responsive styles. I'm slowly wrapping my head around breakpoints. So far, so good!
