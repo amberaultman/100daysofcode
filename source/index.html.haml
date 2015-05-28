@@ -27,21 +27,30 @@ pageable: false
   Everything is awesome
 %section.timeline-container
   #container
-    %article.item.grid-sizer
+    %article.item.dribbble.grid-sizer
+      .type-tag
       = image_tag 'http://placehold.it/400x300'
-    %article.item
+    %article.item.about
+      .type-tag
       = image_tag 'http://placehold.it/400x300'
-    %article.item
+    %article.item.work
+      .type-tag
       = image_tag 'http://placehold.it/1200x800'
-    %article.item
+    %article.item.work
+      .type-tag
       = image_tag 'http://placehold.it/1200x800'
-    %article.item
+    %article.item.about
+      .type-tag
       = image_tag 'http://placehold.it/400x300'
-    %article.item
-      = image_tag 'http://placehold.it/800x300'
-    %article.item
+    %article.item.writing
+      .type-tag
+      .writing-container
+        %h2 This is an article title
+    %article.item.dribbble
+      .type-tag
       = image_tag 'http://placehold.it/400x300'
-    %article.item
+    %article.item.dribbble
+      .type-tag
       = image_tag 'http://placehold.it/400x300'
 -# - page_articles.each do |article|
 -#   %section

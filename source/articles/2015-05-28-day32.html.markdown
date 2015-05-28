@@ -1,0 +1,7 @@
+---
+title: Day Thirty-Two
+date: 2015-05-28 22:15 UTC
+tags: 100daysofcode
+---
+
+I'm at the AIGA national leadership retreat today, but I still managed to get in some code! I started styling the posts in the timeline. Definitely not done yet, but it's getting there!

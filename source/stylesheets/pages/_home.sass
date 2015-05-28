@@ -47,5 +47,33 @@ section
     #container
       max-width: rem(1200)
       margin: 0 auto
+      margin-top: rem(10)
       article.item
         margin-bottom: rem(3)
+        position: relative
+        .type-tag
+          width: rem(60)
+          height: rem(6)
+          position: absolute
+        &.work
+          .type-tag
+            background-color: $green
+        &.writing
+          .type-tag
+            background-color: $yellow
+          .writing-container
+            width: rem(1200)
+            height: rem(300)
+            background-color: $black
+            h2
+              color: white
+              font-size: rem(60)
+              font-weight: 400
+              margin-top: rem(40)
+              margin-left: rem(40)
+        &.dribbble
+          .type-tag
+            background-color: $pink
+        &.about
+          .type-tag
+            background-color: $red
