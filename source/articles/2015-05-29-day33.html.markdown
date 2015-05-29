@@ -1,0 +1,7 @@
+---
+title: Day Thirty-Three
+date: 2015-05-29 20:31 UTC
+tags: 100daysofcode
+---
+
+Today was pretty short and sweet. Didn't have time for much. I continued working on styling the timeline items. I focused on the writing items. I still need to add the date and maybe publication/site. I also need to figure out the responsiveness still. TBC...
