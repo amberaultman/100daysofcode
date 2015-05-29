@@ -52,8 +52,8 @@ section
         margin-bottom: rem(3)
         position: relative
         .type-tag
-          width: rem(60)
-          height: rem(6)
+          width: rem(80)
+          height: rem(7)
           position: absolute
         &.work
           .type-tag
@@ -69,8 +69,26 @@ section
               color: white
               font-size: rem(60)
               font-weight: 400
-              margin-top: rem(40)
-              margin-left: rem(40)
+              padding-top: rem(60)
+              padding-left: rem(60)
+          .read-more
+            position: absolute
+            bottom: 0
+            right: 0
+            background-color: $yellow
+            width: rem(130)
+            padding: rem(15)
+            padding-right: rem(10)
+            p, i
+              display: inline
+              padding: 0
+              margin: 0
+            p
+              font-family: $heading-font-family
+              font-weight: 700
+              text-transform: uppercase
+              font-size: rem(12)
+              margin-right: rem(5)
         &.dribbble
           .type-tag
             background-color: $pink
