@@ -1,0 +1,7 @@
+---
+title: Day Thirty-Five
+date: 2015-06-02 04:24 UTC
+tags: 100daysofcode
+---
+
+Today was also spent working on my freelance project instead of this project. But hey, it's code, right? Today was more about trying to fix some font issues and work on the responsiveness. Evidently I broke the site on iPhone 5's. Grrrr. 

@@ -1,0 +1,7 @@
+---
+title: Day Thirty-Four
+date: 2015-06-02 04:23 UTC
+tags: 100daysofcode
+---
+
+Today was a bit of a cheat. Well, yes and no. I definitely worked on code, but it was for a freelance project that I'm working on. I was trying to tweak the responsiveness more to my liking. I'm still not entirely clear on vertical height stuff. I want to learn more about "vh" and other methods. 
