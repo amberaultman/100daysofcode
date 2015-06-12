@@ -1,0 +1,7 @@
+---
+title: Day Thirty-Seven
+date: 2015-06-12 03:10 UTC
+tags: 100daysofcode
+---
+
+For today's exercise, I started playing with the information overlay on the timeline images. I haven't started messing around with show/hide, but the style is looking good so far.
