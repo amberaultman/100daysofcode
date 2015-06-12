@@ -51,13 +51,51 @@ section
       article.item
         margin-bottom: rem(3)
         position: relative
+        figcaption
+          position: absolute
+          top: 0
+          left: 0
+          background-color: rgba($black, 0.9)
+          width: 100%
+          height: 100%
+          color: darken($gray, 10%)
+          font-size: rem(12)
+          padding: rem(15)
+          p
+            color: white
+            font-size: rem(18)
+            margin-top: rem(30)
+          .learn-more
+            position: absolute
+            bottom: 0
+            right: 0
+            padding: rem(20)
+            padding-right: rem(25)
+            p, i
+              display: inline
+              padding: 0
+              margin: 0
+              color: $pink
+            p
+              font-family: $heading-font-family
+              font-weight: 700
+              text-transform: uppercase
+              font-size: rem(12)
+              margin-right: rem(5)
+        img
+          max-width: rem(400)
         .type-tag
           width: rem(80)
           height: rem(7)
           position: absolute
+          top: 0
+          left: 0
+          z-index: 2000
         &.work
           .type-tag
             background-color: $green
+          img
+            max-width: rem(1200)
         &.writing
           .type-tag
             background-color: $yellow

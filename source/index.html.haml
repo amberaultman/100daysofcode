@@ -27,9 +27,16 @@ pageable: false
   Everything is awesome
 %section.timeline-container
   #container
-    %article.item.dribbble.grid-sizer
+    %article.item.dribbble
       .type-tag
-      = image_tag 'http://placehold.it/400x300'
+      %figcaption
+        %i.date August 20, 2013
+        %p
+          Identity option for MOCA Jacksonville's New Year's Eve party
+        .learn-more
+          %p View on Dribbble
+          %i.fa.fa-long-arrow-right
+      = image_tag 'dribbble/moca.png'
     %article.item.about
       .type-tag
       = image_tag 'http://placehold.it/400x300'
@@ -72,7 +79,7 @@ pageable: false
     itemSelector: '.item',
     layoutMode: 'masonry',
     masonry: {
-      columnWidth: '.grid-sizer',
+      columnWidth: 400,
       gutter: 10
     }
   });
