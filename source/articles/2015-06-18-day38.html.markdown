@@ -1,6 +1,7 @@
 ---
-title: day38
+title: Day Thirty-Eight
 date: 2015-06-18 01:20 UTC
-tags:
+tags: 100daysofcode
 ---
 
+Today (#laterpost) was spent making tweaks to the typography and layout of another freelance project. Not great learning, but still had my head in code for a bit.
