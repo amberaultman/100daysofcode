@@ -62,14 +62,14 @@ pageable: false
     %article.item.dribbble
       .type-tag
       = image_tag 'http://placehold.it/400x300'
--# - page_articles.each do |article|
--#   %section
--#     .wrapper
--#       %article
--#         %h2
--#           = link_to article.title, article, relative: true
--#           %span.timeline-marker= article.date.strftime('%b %e')
--#         = article.body
+- page_articles.each do |article|
+  %section
+    .wrapper
+      %article
+        %h2
+          = link_to article.title, article, relative: true
+          %span.timeline-marker= article.date.strftime('%b %e')
+        = article.body
 
 :javascript
   var $container = $('#container');

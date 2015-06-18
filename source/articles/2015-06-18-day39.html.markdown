@@ -1,0 +1,7 @@
+---
+title: Day Thirty-Nine
+date: 2015-06-18 02:46 UTC
+tags: 100daysofcode
+---
+
+I tried to tackle show/hide functionality today with CSS. I did not win. I found an example that used the :focus selector to do it, but it wasn't working when I tried it. Tomorrow I'll look at doing it with jQuery. Onward...
