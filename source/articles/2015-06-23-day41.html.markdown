@@ -1,0 +1,9 @@
+---
+title: Day Forty-One
+date: 2015-06-23 12:33 UTC
+tags: 100daysofcode
+---
+
+Last night I finally launched the Taverna website!! Hallelujah. You can check it out at http://taverna.restaurant. Super excited to get that off my plate so that I can get down to business with this site.
+
+So in preparation for launch, I added Google Analytics to the site and went into cPanel to point the old URL to the new site. Oh yeah, boys. 
