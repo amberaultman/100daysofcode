@@ -1,0 +1,7 @@
+---
+title: Day Forty
+date: 2015-06-23 12:30 UTC
+tags: 100daysofcode
+---
+
+Had Danilo explain why my hover state was working. I was so close! I also got some clarity on better ways ot structure my sass. That's the next step for sure: refactoring my sass so that I don't have more than 5 levels of indentation. Oops. Progress!

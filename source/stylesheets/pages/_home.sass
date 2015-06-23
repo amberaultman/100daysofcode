@@ -52,6 +52,7 @@ section
         margin-bottom: rem(3)
         position: relative
         figcaption
+          display: none
           position: absolute
           top: 0
           left: 0
@@ -84,13 +85,6 @@ section
               margin-right: rem(5)
         img
           max-width: rem(400)
-        .type-tag
-          width: rem(80)
-          height: rem(7)
-          position: absolute
-          top: 0
-          left: 0
-          z-index: 2000
         &.work
           .type-tag
             background-color: $green
@@ -133,3 +127,14 @@ section
         &.about
           .type-tag
             background-color: $red
+
+      article:hover > figcaption
+        display: block
+        
+.type-tag
+  width: rem(80)
+  height: rem(7)
+  position: absolute
+  top: 0
+  left: 0
+  z-index: 2000
