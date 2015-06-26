@@ -71,15 +71,19 @@ pageable: false
           %span.timeline-marker= article.date.strftime('%b %e')
         = article.body
 
-:javascript
-  var $container = $('#container');
-  // init
-  $container.isotope({
-    // options
-    itemSelector: '.item',
-    layoutMode: 'masonry',
-    masonry: {
-      columnWidth: 400,
-      gutter: 10
-    }
-  });
+- content_for :javascript do
+  :javascript
+    $(window).load(function() {
+      // init
+      var $container = $('#container');
+
+      $container.isotope({
+        // options
+        itemSelector: '.item',
+        layoutMode: 'masonry',
+        masonry: {
+          columnWidth: 400,
+          gutter: 10
+        }
+      });
+    });
