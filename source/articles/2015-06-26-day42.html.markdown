@@ -1,0 +1,7 @@
+---
+title: Day Forty-Two
+date: 2015-06-26 19:21 UTC
+tags: 100daysofcode
+---
+
+Yay! Today [Jimmy](http://cronfu.com/) helped me understand what was going wrong with my Isotope.js grid. I learned about the Middleman helpers `= yield_content` and `- content_for`. He also showed me some better ways to organize my javascript. So, based on that, I moved used the helpers above to move my isotope javascript to the layout and then call it on the homepage. I also moved my jquery call to the bottom of the page (something also made possible by the Middleman helper.) Woot!
