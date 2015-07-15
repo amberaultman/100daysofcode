@@ -2,139 +2,20 @@ header
   section
     background-color: $black
     color: white
-    .wrapper
-      article
-        padding: rem(20) rem(20) rem(20) rem(50)
-        h1
-          font-family: $base-font-family
-          margin-bottom: rem(10)
-          margin-top: rem(140)
-          font-size: rem(80)
-          +media($medium-screen-up)
-            font-size: rem(150)
-        p
-          font-size: rem(18)
-          line-height: rem(32)
-          margin-bottom: rem(30)
-aside.timeline
-  text-indent: -9999px
-  background: url('/images/line.png') repeat-y
-  height: rem(2000)
-  position: absolute
-  left: 10px
-  +media($large-screen-up)
-    left: 30px
-  &.header-timeline
+  article
+    padding: rem(20) rem(20) rem(20) rem(50)
+  h1
+    font-family: $base-font-family
+    margin-bottom: rem(10)
+    margin-top: rem(140)
+    font-size: rem(80)
+    +media($medium-screen-up)
+      font-size: rem(150)
+  p
+    font-size: rem(18)
+    line-height: rem(32)
+    margin-bottom: rem(30)
+  aside.timeline
     background: url('/images/line-white.png') repeat-y
     height: rem(190)
     top: rem(360)
-section
-  .wrapper
-    article
-      span.timeline-marker
-        font-family: $heading-font-family
-        font-size: $h6-font-size
-        font-weight: 700
-        text-transform: uppercase
-        position: absolute
-        left: rem(13)
-        font-size: rem(13)
-        background-color: white
-        color: $black
-        padding: rem(5)
-        margin-top: rem(5)
-  &.timeline-container
-    #container
-      max-width: rem(1200)
-      margin: 0 auto
-      margin-top: rem(10)
-      article.item
-        margin-bottom: rem(3)
-        position: relative
-        figcaption
-          display: none
-          position: absolute
-          top: 0
-          left: 0
-          background-color: rgba($black, 0.9)
-          width: 100%
-          height: 98%
-          color: darken($gray, 10%)
-          font-size: rem(12)
-          padding: rem(15)
-          p
-            color: white
-            font-size: rem(18)
-            margin-top: rem(30)
-          .learn-more
-            position: absolute
-            bottom: 0
-            right: 0
-            padding: rem(20)
-            padding-right: rem(25)
-            p, i
-              display: inline
-              padding: 0
-              margin: 0
-              color: $pink
-            p
-              font-family: $heading-font-family
-              font-weight: 700
-              text-transform: uppercase
-              font-size: rem(12)
-              margin-right: rem(5)
-        img
-          max-width: rem(400)
-        &.work
-          .type-tag
-            background-color: $green
-          img
-            max-width: rem(1200)
-        &.writing
-          .type-tag
-            background-color: $yellow
-          .writing-container
-            width: rem(1200)
-            height: rem(300)
-            background-color: $black
-            h2
-              color: white
-              font-size: rem(60)
-              font-weight: 400
-              padding-top: rem(60)
-              padding-left: rem(60)
-          .read-more
-            position: absolute
-            bottom: 0
-            right: 0
-            background-color: $yellow
-            width: rem(130)
-            padding: rem(15)
-            padding-right: rem(10)
-            p, i
-              display: inline
-              padding: 0
-              margin: 0
-            p
-              font-family: $heading-font-family
-              font-weight: 700
-              text-transform: uppercase
-              font-size: rem(12)
-              margin-right: rem(5)
-        &.dribbble
-          .type-tag
-            background-color: $pink
-        &.about
-          .type-tag
-            background-color: $red
-
-      article:hover > figcaption
-        display: block
-        
-.type-tag
-  width: rem(80)
-  height: rem(7)
-  position: absolute
-  top: 0
-  left: 0
-  z-index: 2000
