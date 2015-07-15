@@ -1,0 +1,9 @@
+---
+title: Day Forty-Three
+date: 2015-07-15 00:25 UTC
+tags: 100daysofcode
+---
+
+Man, it feels good to be back in the code. I'm ashamed to say that I haven't touched this project in a few weeks. But now it's on.
+
+Today I started refactoring my Sass. I realized I was overusing indentation making everything waaaay more specific than it needs to be. I knocked out a lot today. But I'll need to finish it up tomorrow. 
