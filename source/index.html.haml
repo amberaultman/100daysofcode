@@ -86,4 +86,8 @@ pageable: false
           gutter: 10
         }
       });
+      $('.filter-button-group').on( 'click', 'button', function() {
+        var filterValue = $(this).attr('data-filter');
+        $container.isotope({ filter: filterValue });
+      });
     });

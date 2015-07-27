@@ -12,10 +12,9 @@
             = link_to "TWITTER", "http://twitter.com/amberaultman"
   %section.secondary-nav
     .wrapper
-      %article
-        %ul
-          %li.all= link_to "ALL"
-          %li.work= link_to "WORK"
-          %li.writing= link_to "WRITING"
-          %li.dribbble= link_to "DRIBBBLE"
-          %li.about= link_to "ABOUT"
+      %article.filter-button-group
+        %button.button.is-checked{ "data-filter" => "*" } ALL
+        %button.button.work{ "data-filter" => "work" } WORK
+        %button.button.writing{ "data-filter" => "writing" } WRITING
+        %button.button.dribbble{ "data-filter" => "dribbble" } DRIBBBLE
+        %button.button.about{ "data-filter" => "about" } ABOUT

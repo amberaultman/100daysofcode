@@ -1,0 +1,9 @@
+---
+title: Day Forty-Four
+date: 2015-07-27 14:57 UTC
+tags: 100DAYSOFCODE
+---
+
+Ok, I took waaaaay too long of a break. I'm out of the 100day habit. I'm adding this to my calendar for first thing in the morning every day. It's time to get this done!
+
+Today I started trying to make the filtering work in the secondary nav bar. Part of the reason I chose Isotope.js for my site with the ability to filter. I'm excited to get this functionality working. Today: step 1, complete. It looks ugly, but it's starting to work-ish. More tomorrow.
