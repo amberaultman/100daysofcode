@@ -4,6 +4,4 @@ date: 2015-07-28 14:25 UTC
 tags: 100DAYSOFCODE
 ---
 
-Today I got the javascript working all on my own! Such a good feeling. It still doesn't look pretty yet. But it works!! Hot damn.
-
-Yo yo yo.
+Woot! Today I got the javascript working all on my own! Such a good feeling. It still doesn't look pretty yet. But it works!! Hot damn.
