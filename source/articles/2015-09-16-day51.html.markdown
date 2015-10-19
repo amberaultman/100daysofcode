@@ -1,0 +1,7 @@
+---
+title: Day Fifty-One
+date: 2015-09-16 20:02 UTC
+tags: 100daysofcode
+---
+
+Today I added the texting animated GIF and made some small CSS tweaks.

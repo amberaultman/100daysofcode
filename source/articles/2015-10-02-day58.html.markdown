@@ -1,0 +1,7 @@
+---
+title: Day Fifty-Eight
+date: 2015-10-02 20:24 UTC
+tags: 100daysofcode
+---
+
+More SEO updated today. It's a little trickier than I originally thought because we need page-specific SEO information. Worked with Jason and Jimmy to figure it out. Stay tuned...

@@ -1,0 +1,7 @@
+---
+title: Day Sixty-Two
+date: 2015-10-12 20:25 UTC
+tags: 100daysofcode
+---
+
+Today I updated the career path section of Wayfind. This is probably the most significant change to the code base of this project so far. Pretty cool to work on! I also continued working on Temper.

@@ -1,0 +1,7 @@
+---
+title: Day Fifty-Five
+date: 2015-09-24 20:03 UTC
+tags: 100daysofcode
+---
+
+Heck yeah, they added me to a new coding project. This time I'll be taking over the design and front-end of Wayfind, one of our other products at Ignite. Today I just added some images to help with the Javascript for the career path section. 

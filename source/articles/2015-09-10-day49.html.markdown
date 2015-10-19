@@ -1,0 +1,7 @@
+---
+title: Day Forty-Nine
+date: 2015-09-10 19:56 UTC
+tags: 100daysofcode
+---
+
+Day 3 of the Fetch product page build. Today I started adding in additional CSS styles.

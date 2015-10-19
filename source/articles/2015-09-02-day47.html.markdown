@@ -1,0 +1,7 @@
+---
+title: Day Forty-Seven
+date: 2015-09-02 19:33 UTC
+tags: 100daysofcode
+---
+
+Today I started on a new coding project at Ignite. I get to design and code the product pages! Super excited about this opportunity. Today I laid down the HTML for the [Fetch](http://ignitewithus.com/products/fetch) product page. 

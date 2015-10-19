@@ -1,0 +1,7 @@
+---
+title: Day Fifty-Seven
+date: 2015-09-29 20:03 UTC
+tags: 100daysofcode
+---
+
+Made some more Fetch copy changes and added some SEO content today. Not too exciting, but it counts, right?

@@ -1,0 +1,7 @@
+---
+title: Day Fifty-Two
+date: 2015-09-17 20:02 UTC
+tags: 100daysofcode
+---
+
+More tweaks today. I had Jason and Danilo do a code review for me, so I started refactoring some of the Sass based on their recommendations.

@@ -1,0 +1,7 @@
+---
+title: Day Fifty-Six
+date: 2015-09-28 20:03 UTC
+tags: 100daysofcode
+---
+
+Today I got to dive into the code a little more for [Wayfind](http://wayfind.to). I fixed a single digit centering issue. It's pretty awesome getting to work on this new code base. It's more complex than anything I've worked on so far, but I'm really enjoying the challenge!

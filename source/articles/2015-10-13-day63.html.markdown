@@ -1,0 +1,7 @@
+---
+title: Day Sixty-Three
+date: 2015-10-13 20:25 UTC
+tags: 100daysofcode
+---
+
+I had Jason and Danilo review my Wayfind code. So today I worked on making those changes. 

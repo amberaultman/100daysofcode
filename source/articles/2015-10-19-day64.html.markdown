@@ -1,0 +1,7 @@
+---
+title: Day Sixty-Four
+date: 2015-10-19 20:25 UTC
+tags: 100daysofcode
+---
+
+Man, I just caught up on documenting (and creating articles for) 20-some days of coding. So I'm back on track now! Time to be consistent with this and wrap up this little challenge. See you tomorrow.

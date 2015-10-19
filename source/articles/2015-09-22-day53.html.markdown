@@ -1,0 +1,7 @@
+---
+title: Day Fifty-Three
+date: 2015-09-22 20:02 UTC
+tags: 100daysofcode
+---
+
+Still making Jason tweaks. Styled the form error states and added hover styles to the product navigation.

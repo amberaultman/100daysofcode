@@ -1,0 +1,7 @@
+---
+title: Day Sixty
+date: 2015-10-07 20:25 UTC
+tags: 100daysofcode
+---
+
+**Temper!** My boyfriend, Russel, needed a temporary site put up quickly for his new company, [Temper](http://temper.is/). I offered to help him for the extra practice. Super simple and clean design. Super easy to code. Still, I had to refresh my memory on creating a Middleman site from scratch. Glad I took on this little project. It was a nice refresher.

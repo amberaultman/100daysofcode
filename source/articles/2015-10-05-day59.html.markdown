@@ -1,0 +1,7 @@
+---
+title: Day Fifty-Nine
+date: 2015-10-05 20:25 UTC
+tags: 100daysofcode
+---
+
+Finally got the page-specific SEO styles worked out! Massive thanks to Jimmy and Jason for figuring it out. Now everything is all nice and tidy.

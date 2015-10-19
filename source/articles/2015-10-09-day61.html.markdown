@@ -1,0 +1,7 @@
+---
+title: Day Sixty-One
+date: 2015-10-09 20:25 UTC
+tags: 100daysofcode
+---
+
+Today I made some tweaks to Wayfind, centering the job information in the career path section. I also continued styling Russel's Temper site.
