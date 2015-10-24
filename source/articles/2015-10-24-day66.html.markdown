@@ -1,0 +1,8 @@
+---
+title: Day Sixty-Six
+date: 2015-10-24 16:39 UTC
+tags: 100DAYSOFCODE
+---
+Today I finally got back to tinkering with this site. Man, it feels good. :)
+
+I finally got the secondary nav styled and working! It now filters the list below using the isotope.js plugin. Super pumped to have this part done.

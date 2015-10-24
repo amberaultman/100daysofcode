@@ -1,0 +1,7 @@
+---
+title: Day Sixty-Five
+date: 2015-10-20 14:36 UTC
+tags: 100daysofcode
+---
+
+I had my first experience playing with a database today! My coworker Charlie was nice enough to walk me through making some database changes for Wayfind. Pretty cool writing SQL queries and watching the database change. Not that I would be able to replicate the process by myself, but still super cool to see how it all works! 
