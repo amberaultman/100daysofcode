@@ -4,7 +4,7 @@ nav
   z-index: 2000
   ul
     display: inline-block
-    font-family: $heading-font-family
+    font-family: $nav-font-family
     font-weight: 700
     font-size: 0
     &.right-menu
@@ -12,10 +12,16 @@ nav
       font-size: rem(12)
       li
         margin-left: rem(30)
+    &.site-title
+      a
+        color: white
+        &:hover,
+        &:focus
+          color: darken($light-gray, 10%)
   li
     display: inline-block
     margin-bottom: 0
-    font-size: rem(12)
+    font-size: rem(14)
 section
   &.primary-nav
     background-color: $black
@@ -32,7 +38,7 @@ section
     article
       width: 100%
     button
-      font-size: rem(12)
+      font-size: rem(14)
       margin: 0 auto rem(-6)
       text-align: center
       display: inline-block
@@ -45,27 +51,27 @@ section
         background-color: transparent
         color: $black
       &.all
-        width: 15%
+        width: 20%
         border-bottom: solid rem(6) $gray
         &:hover, &:active, &:focus, &.is-checked
           background-image: url(image_path('triangle-gray.png'))
       &.work
-        width: 18%
+        width: 20%
         border-bottom: solid rem(6) $green
         &:hover, &:active, &:focus, &.is-checked
           background-image: url(image_path('triangle-green.png'))
       &.writing
         border-bottom: solid rem(6) $yellow
-        width: 23%
+        width: 20%
         &:hover, &:active, &:focus, &.is-checked
           background-image: url(image_path('triangle-yellow.png'))
       &.dribbble
-        width: 23%
+        width: 20%
         border-bottom: solid rem(6) $pink
         &:hover, &:active, &:focus, &.is-checked
           background-image: url(image_path('triangle-pink.png'))
       &.about
-        width: 21%
+        width: 20%
         border-bottom: solid rem(6) $red
         &:hover, &:active, &:focus, &.is-checked
           background-image: url(image_path('triangle-red.png'))

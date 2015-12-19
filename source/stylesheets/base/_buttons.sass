@@ -8,7 +8,7 @@ button.clean
   color: $black
   cursor: pointer
   display: inline-block
-  font-family: $heading-font-family
+  font-family: $nav-font-family
   font-size: rem(12)
   font-weight: 600
   line-height: 1
@@ -37,3 +37,38 @@ button.clean
     &.fa.fa-long-arrow-left
       padding-left: 0
       padding-right: rem(5)
+
+button.learn-more-dribbble,
+button.learn-more-about,
+button.read-more,
+  position: absolute
+  bottom: 0
+  right: 0
+  padding: rem(20)
+  display: inline
+  color: $pink
+  font-family: $nav-font-family
+  font-weight: 700
+  text-transform: uppercase
+  font-size: rem(14)
+  &:hover,
+  &:focus
+    background-color: transparent
+    color: darken($pink, 15%)
+    outline: none
+  i
+    font-size: rem(16)
+
+button.learn-more-about
+  color: $red
+  &:hover,
+  &:focus
+    color: darken($red, 13%)
+
+button.read-more
+  background-color: $yellow
+  color: $black
+  &:hover,
+  &:focus
+    background-color: $yellow
+    color: lighten($dark-gray, 10%)
