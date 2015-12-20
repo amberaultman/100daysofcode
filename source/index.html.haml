@@ -46,9 +46,28 @@ pageable: false
           View on Somewhere
           %i.fa.fa-long-arrow-right
       = image_tag 'about/2015-12-18.jpg'
+    %article.item.about
+      .type-tag
+      %figcaption
+        %time August 20, 2013
+        %p
+          It's so fun getting to see @content_modern's new branding implemented!
+        %button.learn-more-about
+          View on Somewhere
+          %i.fa.fa-long-arrow-right
+      = image_tag 'about/2015-12-18.jpg'
     %article.item.work
       .type-tag
-      = image_tag 'http://placehold.it/1200x800'
+      %figcaption
+        %time 2013-2015
+        %h2
+          Taverna Restaurant
+        %p
+          Branding, Creative Strategy, Interactive Design, Advertising Design, Menu Design
+        %button.learn-more-work
+          Learn More
+          %i.fa.fa-long-arrow-right
+      = image_tag 'work/tav-cover.jpg'
     %article.item.work
       .type-tag
       = image_tag 'http://placehold.it/1200x800'
@@ -57,10 +76,17 @@ pageable: false
       = image_tag 'http://placehold.it/400x300'
     %article.item.writing
       .type-tag
-      %h2 Style Prototypes: A Happy Medium
-      %button.read-more
-        Read More
-        %i.fa.fa-long-arrow-right
+      %figcaption
+        %time August 25, 2014
+        %h2
+          Learn How to Learn (Code) Better
+        %p
+          Article originally posted on
+          = link_to 'AIGA Jacksonville', 'http://jacksonville.aiga.org'
+        %button.learn-more-writing
+          Read Article
+          %i.fa.fa-long-arrow-right
+      = image_tag 'writing/learn-better.jpg'
     %article.item.dribbble
       .type-tag
       = image_tag 'http://placehold.it/400x300'

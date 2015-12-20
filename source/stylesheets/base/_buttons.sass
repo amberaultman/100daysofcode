@@ -40,7 +40,8 @@ button.clean
 
 button.learn-more-dribbble,
 button.learn-more-about,
-button.read-more,
+button.learn-more-writing,
+button.learn-more-work,
   position: absolute
   bottom: 0
   right: 0
@@ -65,10 +66,14 @@ button.learn-more-about
   &:focus
     color: darken($red, 13%)
 
-button.read-more
-  background-color: $yellow
-  color: $black
+button.learn-more-work
+  color: $green
   &:hover,
   &:focus
-    background-color: $yellow
-    color: lighten($dark-gray, 10%)
+    color: darken($green, 10%)
+
+button.learn-more-writing
+  color: $yellow
+  &:hover,
+  &:focus
+    color: darken($yellow, 10%)

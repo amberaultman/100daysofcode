@@ -31,6 +31,7 @@ end
 
 page "/feed.xml", layout: false
 page "articles/*", :layout => :article_layout
+page "writing/*", :layout => :writing_layout
 
 activate :deploy do |deploy|
   deploy.method = :git

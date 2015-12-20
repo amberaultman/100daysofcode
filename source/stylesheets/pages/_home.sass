@@ -1,28 +1,32 @@
-header
-  section
-    background-color: $black
-    color: white
-  article
-    padding: 0 rem(20)
-    +span-columns(12)
-    +media($medium)
-      +span-columns(10)
-      +shift(1)
-  h1
-    font-family: $heading-font-family
-    margin-bottom: rem(10)
-    margin-top: rem(140)
-    font-size: rem(80)
-    +media($medium)
-      font-size: rem(150)
-  p
-    font-size: rem(18)
-    line-height: rem(28)
-    margin-bottom: rem(50)
-    +media($medium)
-      font-size: rem(20)
-      line-height: rem(30)
-  aside.timeline
-    background: url('/images/line-white.png') repeat-y
-    height: rem(190)
-    top: rem(360)
+#main
+  nav
+    section.subpage-nav
+      display: none
+  header
+    section
+      background-color: $black
+      color: white
+    article
+      padding: 0 rem(20)
+      +span-columns(12)
+      +media($medium)
+        +span-columns(10)
+        +shift(1)
+    h1
+      font-family: $heading-font-family
+      margin-bottom: rem(10)
+      margin-top: rem(140)
+      font-size: rem(80)
+      +media($medium)
+        font-size: rem(150)
+    p
+      font-size: rem(18)
+      line-height: rem(28)
+      margin-bottom: rem(50)
+      +media($medium)
+        font-size: rem(20)
+        line-height: rem(30)
+    aside.timeline
+      background: url('/images/line-white.png') repeat-y
+      height: rem(190)
+      top: rem(360)
