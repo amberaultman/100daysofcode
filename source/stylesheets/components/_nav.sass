@@ -23,8 +23,10 @@ nav
     li
       display: inline-block
       margin-bottom: 0
-      font-size: rem(14)
+      font-size: rem(12)
       padding: 0
+      +media($medium)
+        font-size: rem(14)
 
 
 .primary-nav
@@ -44,12 +46,14 @@ nav
   background-color: white
   color: $black
   button
-    font-size: rem(14)
+    font-size: rem(12)
     margin: 0 auto rem(-6)
     text-align: center
     display: inline-block
     float: left
     padding: rem(20) 0 rem(16)
+    +media($medium)
+      font-size: rem(14)
     &:hover, &:active, &:focus, &.is-checked
       background-repeat: no-repeat
       background-position: 50% 100%
