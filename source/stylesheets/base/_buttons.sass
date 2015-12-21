@@ -9,8 +9,8 @@ button.clean
   cursor: pointer
   display: inline-block
   font-family: $nav-font-family
-  font-size: rem(12)
-  font-weight: 600
+  font-size: rem(14)
+  font-weight: 700
   line-height: 1
   text-transform: uppercase
   padding: 0.9em 1.3em
@@ -21,22 +21,27 @@ button.clean
   white-space: nowrap
   &:hover,
   &:focus
-    background-color: $black
-    color: white
+    background-color: transparent
+    color: black
     outline: none
+    text-decoration: none
   &:disabled
     cursor: not-allowed
     opacity: 0.5
-  a
-    color: $black
-    &:hover,
-    &:focus
-      color: white
   i
     padding-left: rem(5)
     &.fa.fa-long-arrow-left
       padding-left: 0
       padding-right: rem(5)
+
+button.close
+  padding: rem(20) 0 rem(18)
+  &:hover,
+  &:focus
+    background-image: url(image_path('triangle-light-gray.png'))
+    background-repeat: no-repeat
+    background-position: 50% 100%
+    background-size: rem(18)
 
 button.learn-more-dribbble,
 button.learn-more-about,

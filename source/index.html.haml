@@ -36,6 +36,7 @@ pageable: false
           View on Dribbble
           %i.fa.fa-long-arrow-right
       = image_tag 'dribbble/moca.png'
+
     %article.item.about
       .type-tag
       %figcaption
@@ -46,6 +47,7 @@ pageable: false
           View on Somewhere
           %i.fa.fa-long-arrow-right
       = image_tag 'about/2015-12-18.jpg'
+
     %article.item.about
       .type-tag
       %figcaption
@@ -56,6 +58,7 @@ pageable: false
           View on Somewhere
           %i.fa.fa-long-arrow-right
       = image_tag 'about/2015-12-18.jpg'
+
     %article.item.work
       .type-tag
       %figcaption
@@ -68,12 +71,15 @@ pageable: false
           Learn More
           %i.fa.fa-long-arrow-right
       = image_tag 'work/tav-cover.jpg'
+
     %article.item.work
       .type-tag
       = image_tag 'http://placehold.it/1200x800'
+
     %article.item.about
       .type-tag
       = image_tag 'http://placehold.it/400x300'
+
     %article.item.writing
       .type-tag
       %figcaption
@@ -82,17 +88,37 @@ pageable: false
           Learn How to Learn (Code) Better
         %p
           Article originally posted on
-          = link_to 'AIGA Jacksonville', 'http://jacksonville.aiga.org'
-        %button.learn-more-writing
-          Read Article
-          %i.fa.fa-long-arrow-right
+          = link_to 'AIGA Jacksonville', 'http://jacksonville.aiga.org/learn-how-to-learn-code-better/'
+        %a{href: "/writing/2014-08-25.html"}
+          %button.learn-more-writing
+            Read Article
+            %i.fa.fa-long-arrow-right
       = image_tag 'writing/learn-better.jpg'
+
     %article.item.dribbble
       .type-tag
       = image_tag 'http://placehold.it/400x300'
+
     %article.item.dribbble
       .type-tag
       = image_tag 'http://placehold.it/400x300'
+
+    %article.item.writing
+      .type-tag
+      %figcaption
+        %time April 16, 2014
+        %h2
+          Style Prototypes: A Happy Medium
+        %p
+          Article originally posted on
+          = link_to 'AIGA Jacksonville', 'http://jacksonville.aiga.org/style-prototypes-a-happy-medium/'
+        %a{href: "/writing/2014-04-16.html"}
+          %button.learn-more-writing
+            Read Article
+            %i.fa.fa-long-arrow-right
+      = image_tag 'writing/style-prototypes.jpg'
+
+
 -# - page_articles.each do |article|
 -#   %section
 -#     .wrapper

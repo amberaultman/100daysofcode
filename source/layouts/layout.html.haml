@@ -7,7 +7,7 @@
       Amber Aultman - Timeline
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
     = stylesheet_link_tag "normalize", "all"
-  %body
+  %body#timeline
     #main{:role => "main"}
       = partial "refills/nav"
       = yield

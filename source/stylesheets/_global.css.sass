@@ -1,9 +1,13 @@
 body
   color: $black
   background-color: white
+  font-size: rem(18)
+  +media($medium)
+    font-size: rem(20)
 
 a
   color: $green
+  font-weight: 700
   &:hover
     color: darken($green, 15%)
     text-decoration: none
@@ -11,6 +15,23 @@ a
 .center
   text-align: center
   margin: 0 auto
+
+h2
+  font-size: rem(24)
+  margin-bottom: rem(10)
+  +media($large)
+    font-size: rem(36)
+
+blockquote
+  border-left: solid rem(6) $light-gray
+  padding-left: rem(20)
+  font-family: $heading-font-family
+  color: $gray
+  font-size: rem(18)
+  span
+    font-family: $base-font-family
+    font-size: $base-font-size
+    display: block
 
 // General structure
 section

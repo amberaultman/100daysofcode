@@ -5,6 +5,7 @@ aside.timeline
   position: absolute
   left: 20px
   top: 10px
+  z-index: -1000
 
 span.timeline-marker
   font-family: $nav-font-family
@@ -41,11 +42,8 @@ section.timeline-container
         background-color: $green
       figcaption
         height: 99.5%
-      h2, p
-        color: white
-      h2
-        margin-top: rem(30)
       p
+        color: white
         margin-top: 0
     &.writing
       color: $yellow
@@ -54,11 +52,8 @@ section.timeline-container
         background-color: $yellow
       figcaption
         height: 99.5%
-      h2, p
-        color: white
-      h2
-        margin-top: rem(30)
       p
+        color: white
         margin-top: 0
     &.dribbble
       color: $pink
@@ -76,14 +71,22 @@ section.timeline-container
     background-color: rgba($black, 0.7)
     width: 100%
     height: 99%
-    font-size: rem(15)
+    font-size: rem(16)
     padding: rem(20)
+    +media($medium)
+      font-size: rem(20)
     +media($large)
       height: 98%
+    h2
+      color: white
+      margin-top: 0
+      +media($medium)
+        margin-top: rem(30)
     p
       color: white
-      font-size: rem(20)
-      margin-top: rem(30)
+      margin-top: rem(10)
+      +media($medium)
+        margin-top: rem(30)
   article:hover > figcaption
     display: block
 

@@ -7,71 +7,110 @@ nav
     font-family: $nav-font-family
     font-weight: 700
     font-size: 0
+    margin-left: 0
+    margin-bottom: rem(18)
     &.right-menu
       float: right
-      font-size: rem(12)
       li
         margin-left: rem(30)
     &.site-title
+      float: left
       a
         color: white
         &:hover,
         &:focus
           color: darken($light-gray, 10%)
-  li
-    display: inline-block
-    margin-bottom: 0
-    font-size: rem(14)
-section
-  &.primary-nav
-    background-color: $black
-    color: white
-    article
-      padding: rem(20)
-  &.secondary-nav
-    -webkit-box-sizing: border-box
-    -moz-box-sizing: border-box
-    box-sizing: border-box
-    border-bottom: solid rem(6) $light-gray
-    background-color: white
-    color: $black
-    article
-      width: 100%
-    button
-      font-size: rem(14)
-      margin: 0 auto rem(-6)
-      text-align: center
+    li
       display: inline-block
-      float: left
-      padding: rem(22) 0 rem(16)
+      margin-bottom: 0
+      font-size: rem(14)
+      padding: 0
+
+
+.primary-nav
+  background-color: $black
+  color: white
+  article
+    padding: rem(20)
+    +media($xlarge)
+      padding: rem(20) 0
+
+
+.secondary-nav
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  border-bottom: solid rem(6) $light-gray
+  background-color: white
+  color: $black
+  button
+    font-size: rem(14)
+    margin: 0 auto rem(-6)
+    text-align: center
+    display: inline-block
+    float: left
+    padding: rem(20) 0 rem(16)
+    &:hover, &:active, &:focus, &.is-checked
+      background-repeat: no-repeat
+      background-position: 50% 100%
+      background-size: rem(18)
+      background-color: transparent
+      color: $black
+    &.all
+      width: 20%
+      border-bottom: solid rem(6) $gray
       &:hover, &:active, &:focus, &.is-checked
-        background-repeat: no-repeat
-        background-position: 50% 100%
-        background-size: rem(18)
-        background-color: transparent
-        color: $black
-      &.all
-        width: 20%
-        border-bottom: solid rem(6) $gray
-        &:hover, &:active, &:focus, &.is-checked
-          background-image: url(image_path('triangle-gray.png'))
-      &.work
-        width: 20%
-        border-bottom: solid rem(6) $green
-        &:hover, &:active, &:focus, &.is-checked
-          background-image: url(image_path('triangle-green.png'))
-      &.writing
-        border-bottom: solid rem(6) $yellow
-        width: 20%
-        &:hover, &:active, &:focus, &.is-checked
-          background-image: url(image_path('triangle-yellow.png'))
-      &.dribbble
-        width: 20%
-        border-bottom: solid rem(6) $pink
-        &:hover, &:active, &:focus, &.is-checked
-          background-image: url(image_path('triangle-pink.png'))
-      &.about
-        width: 20%
-        border-bottom: solid rem(6) $red
-        &:hover, &:active, &:focus, &.is-checked
-          background-image: url(image_path('triangle-red.png'))
+        background-image: url(image_path('triangle-gray.png'))
+    &.work
+      width: 20%
+      border-bottom: solid rem(6) $green
+      &:hover, &:active, &:focus, &.is-checked
+        background-image: url(image_path('triangle-green.png'))
+    &.writing
+      border-bottom: solid rem(6) $yellow
+      width: 20%
+      &:hover, &:active, &:focus, &.is-checked
+        background-image: url(image_path('triangle-yellow.png'))
+    &.dribbble
+      width: 20%
+      border-bottom: solid rem(6) $pink
+      &:hover, &:active, &:focus, &.is-checked
+        background-image: url(image_path('triangle-pink.png'))
+    &.about
+      width: 20%
+      border-bottom: solid rem(6) $red
+      &:hover, &:active, &:focus, &.is-checked
+        background-image: url(image_path('triangle-red.png'))
+
+
+.subpage-nav
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  border-bottom: solid rem(6) $light-gray
+  background-color: white
+  color: $black
+  article
+    margin: 0 rem(20)
+    +media($xlarge)
+      margin: 0
+  h6
+    display: inline-block
+    padding: rem(20) 0 rem(16)
+    margin: 0
+    border-bottom: solid rem(6) $yellow
+    margin-bottom: rem(-6)
+  button
+    float: right
+
+.next-nav
+  margin-bottom: rem(100)
+  text-align: center
+  article
+    +span-columns(8)
+    +shift(2)
+  h6
+    display: inline-block
+    padding-bottom: rem(5)
+    border-bottom: solid rem(6) $light-gray
+    margin-bottom: rem(20)
