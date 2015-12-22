@@ -1,0 +1,64 @@
+body#work
+  section.secondary-nav,
+  section.writing-nav
+    display: none
+  header
+    padding-top: rem(170)
+  h1
+    font-size: rem(36)
+    +media($medium)
+      font-size: rem(45)
+  h3
+    margin-top: 0
+    margin-bottom: rem(40)
+    font-family: $base-font-family
+  h4
+    margin-bottom: rem(20)
+
+.work-body
+  padding: 0 rem(20)
+  article
+    +row
+    margin-top: rem(60)
+
+.narrow-center
+  +span-columns(12)
+  +media($medium)
+    +span-columns(10)
+    +shift(1)
+  +media($large)
+    +span-columns(8)
+    +shift(2)
+
+.image-left,
+.image-right
+  img
+    margin-bottom: rem(40)
+    +span-columns(12)
+    +media($medium)
+      +span-columns(10)
+      +shift(1)
+    +media($large)
+      +span-columns(8)
+      +shift(0)
+  figcaption
+    +span-columns(12)
+    +media($medium)
+      +span-columns(10)
+      +shift(1)
+    +media($large)
+      +span-columns(4)
+      +shift(0)
+      padding-left: rem(40)
+
+.image-right
+  img
+    +media($large)
+      +span-columns(8)
+      +shift(4)
+  figcaption
+    +media($large)
+      +span-columns(4)
+      +shift(-12)
+      padding-left: 0
+      padding-right: rem(40)

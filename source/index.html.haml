@@ -67,9 +67,10 @@ pageable: false
           Taverna Restaurant
         %p
           Branding, Creative Strategy, Interactive Design, Advertising Design, Menu Design
-        %button.learn-more-work
-          Learn More
-          %i.fa.fa-long-arrow-right
+        = link_to '/work/taverna.html' do
+          %button.learn-more-work
+            Learn More
+            %i.fa.fa-long-arrow-right
       = image_tag 'work/tav-cover.jpg'
 
     %article.item.work

@@ -18,10 +18,18 @@
         %button.button.writing{ "data-filter" => ".writing" } WRITING
         %button.button.dribbble{ "data-filter" => ".dribbble" } DRIBBBLE
         %button.button.about{ "data-filter" => ".about" } ABOUT
-  %section.subpage-nav
+  %section.writing-nav
     .wrapper
       %article
         %h6 WRITING
+        %a{href: "../index.html"}
+          %button.close
+            Close
+            %i.fa.fa-times
+  %section.work-nav
+    .wrapper
+      %article
+        %h6 WORK
         %a{href: "../index.html"}
           %button.close
             Close

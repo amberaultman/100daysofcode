@@ -47,7 +47,7 @@ nav
   color: $black
   button
     font-size: rem(12)
-    margin: 0 auto rem(-6)
+    margin: 0 auto rem(-5)
     text-align: center
     display: inline-block
     float: left
@@ -87,7 +87,8 @@ nav
         background-image: url(image_path('triangle-red.png'))
 
 
-.subpage-nav
+.writing-nav,
+.work-nav
   -webkit-box-sizing: border-box
   -moz-box-sizing: border-box
   box-sizing: border-box
@@ -100,7 +101,7 @@ nav
       margin: 0
   h6
     display: inline-block
-    padding: rem(20) 0 rem(16)
+    padding: rem(20) 0 rem(15)
     margin: 0
     border-bottom: solid rem(6) $yellow
     margin-bottom: rem(-6)
@@ -113,8 +114,13 @@ nav
     +media($medium)
       font-size: rem(14)
 
+.work-nav
+  h6
+    border-bottom: solid rem(6) $green
+
 .next-nav
-  margin-bottom: rem(100)
+  margin-bottom: rem(200)
+  margin-top: rem(100)
   text-align: center
   article
     +span-columns(8)
