@@ -26,6 +26,19 @@ pageable: false
   Everything is awesome.
 %section.timeline-container
   #container
+    %article.item.work
+      .type-tag
+      %figcaption
+        %time 2015
+        %h2
+          IBM Alumni Engagement
+        %p
+          Design Thinking & Facilitation, Project Management, Product Strategy, UX Design, User Research
+        = link_to '/work/ibm.html' do
+          %button.learn-more-work
+            Learn More
+            %i.fa.fa-long-arrow-right
+      = image_tag 'work/ibm-cover.jpg'
     %article.item.dribbble
       .type-tag
       %figcaption
