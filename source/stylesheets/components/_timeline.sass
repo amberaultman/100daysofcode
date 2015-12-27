@@ -46,6 +46,8 @@ section.timeline-container
     &.writing
       color: $yellow
       max-width: rem(810)
+      a
+        color: $yellow
       .type-tag
         background-color: $yellow
       figcaption
@@ -55,10 +57,14 @@ section.timeline-container
         margin-top: 0
     &.dribbble
       color: $pink
+      a
+        color: $pink
       .type-tag
         background-color: $pink
     &.about
       color: $red
+      a
+        color: $red
       .type-tag
         background-color: $red
   figcaption
@@ -85,7 +91,7 @@ section.timeline-container
       margin-top: rem(10)
       +media($medium)
         margin-top: rem(30)
-  article:hover > figcaption
+  article:hover > a > figcaption
     display: block
 
 .type-tag

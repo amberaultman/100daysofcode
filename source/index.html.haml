@@ -28,39 +28,42 @@ pageable: false
   #container
     %article.item.work
       .type-tag
-      %figcaption
-        %time 2015
-        %h2
-          Wayfind
-        %p
-          Design Thinking & Facilitation, Development, Product Strategy, UX Design, User Research
-        = link_to '/work/wayfind.html' do
+      = link_to '/work/wayfind.html' do
+        %figcaption
+          %time 2015
+          %h2
+            Wayfind
+          %p
+            Development, Product Strategy, UX Design, User Research, Workshop Facilitation
           %button.learn-more-work
             Learn More
             %i.fa.fa-long-arrow-right
       = image_tag 'work/way-cover.jpg'
+
     %article.item.work
       .type-tag
-      %figcaption
-        %time 2015
-        %h2
-          IBM Alumni Engagement
-        %p
-          Design Thinking & Facilitation, Project Management, Product Strategy, UX Design, User Research
-        = link_to '/work/ibm.html' do
+      = link_to '/work/ibm.html' do
+        %figcaption
+          %time 2015
+          %h2
+            IBM Alumni Engagement
+          %p
+            Project Management, Product Strategy, UX Design, User Research, Workshop Facilitation
           %button.learn-more-work
             Learn More
             %i.fa.fa-long-arrow-right
       = image_tag 'work/ibm-cover.jpg'
+
     %article.item.dribbble
       .type-tag
-      %figcaption
-        %time August 20, 2013
-        %p
-          Identity option for MOCA Jacksonville's New Year's Eve party
-        %button.learn-more-dribbble
-          View on Dribbble
-          %i.fa.fa-long-arrow-right
+      = link_to 'https://dribbble.com/shots/1203764-Identity-option-for-MOCA-Jacksonville-s-New-Year-s-Eve-Party' do
+        %figcaption
+          %time August 20, 2013
+          %p
+            Identity option for MOCA Jacksonville's New Year's Eve party
+          %button.learn-more-dribbble
+            View on Dribbble
+            %i.fa.fa-long-arrow-right
       = image_tag 'dribbble/moca.png'
 
     %article.item.about
@@ -87,13 +90,27 @@ pageable: false
 
     %article.item.work
       .type-tag
-      %figcaption
-        %time 2013-2015
-        %h2
-          Taverna Restaurant
-        %p
-          Brand Identity, Strategy, UX Design, Visual Design
-        = link_to '/work/taverna.html' do
+      = link_to '/work/content.html' do
+        %figcaption
+          %time 2015
+          %h2
+            Content Architecture + Interiors
+          %p
+            Brand Identity, Visual Design, Website Content Strategy, Website Creative Direction
+          %button.learn-more-work
+            Learn More
+            %i.fa.fa-long-arrow-right
+      = image_tag 'work/cnt-cover.gif'
+
+    %article.item.work
+      .type-tag
+      = link_to '/work/taverna.html' do
+        %figcaption
+          %time 2013&ndash;2015
+          %h2
+            Taverna Restaurant
+          %p
+            Brand Identity, Strategy, UX Design, Visual Design
           %button.learn-more-work
             Learn More
             %i.fa.fa-long-arrow-right
@@ -101,17 +118,17 @@ pageable: false
 
     %article.item.work
       .type-tag
-      %figcaption
-        %time 2015
-        %h2
-          Content Architecture + Interiors
-        %p
-          Brand Identity, Visual Design, Website Content Strategy, Website Creative Direction
-        = link_to '/work/content.html' do
+      = link_to '/work/catalyst.html' do
+        %figcaption
+          %time 2014
+          %h2
+            Catalyst: Design Thinking Workshops
+          %p
+            Development, Photography, Strategy, UX Design, Visual Design, Workshop Facilitation
           %button.learn-more-work
             Learn More
             %i.fa.fa-long-arrow-right
-      = image_tag 'work/cnt-cover.gif'
+      = image_tag 'work/cat-cover.jpg'
 
     %article.item.about
       .type-tag
@@ -119,14 +136,13 @@ pageable: false
 
     %article.item.writing
       .type-tag
-      %figcaption
-        %time August 25, 2014
-        %h2
-          Learn How to Learn (Code) Better
-        %p
-          Article originally posted on
-          = link_to 'AIGA Jacksonville', 'http://jacksonville.aiga.org/learn-how-to-learn-code-better/'
-        = link_to '/writing/2014-08-25.html' do
+      = link_to '/writing/2014-08-25.html' do
+        %figcaption
+          %time August 25, 2014
+          %h2
+            Learn How to Learn (Code) Better
+          %p
+            Article originally posted on AIGA Jacksonville
           %button.learn-more-writing
             Read Article
             %i.fa.fa-long-arrow-right
@@ -142,14 +158,13 @@ pageable: false
 
     %article.item.writing
       .type-tag
-      %figcaption
-        %time April 16, 2014
-        %h2
-          Style Prototypes: A Happy Medium
-        %p
-          Article originally posted on
-          = link_to 'AIGA Jacksonville', 'http://jacksonville.aiga.org/style-prototypes-a-happy-medium/'
-        = link_to '/writing/2014-04-16.html' do
+      = link_to '/writing/2014-04-16.html' do
+        %figcaption
+          %time April 16, 2014
+          %h2
+            Style Prototypes: A Happy Medium
+          %p
+            Article originally posted on AIGA Jacksonville
           %button.learn-more-writing
             Read Article
             %i.fa.fa-long-arrow-right
