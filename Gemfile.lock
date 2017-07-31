@@ -39,7 +39,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.0.7)
+    eventmachine (1.2.5)
     execjs (2.5.2)
     ffi (1.9.8)
     font-awesome-sass (4.3.2.1)
@@ -154,6 +154,7 @@ DEPENDENCIES
   bitters
   bourbon
   builder (~> 3.0)
+  eventmachine (> 1.0.9)
   font-awesome-sass
   middleman (~> 3.3.12)
   middleman-blog (~> 3.5.3)
@@ -163,3 +164,6 @@ DEPENDENCIES
   rack-contrib
   tzinfo-data
   wdm (~> 0.1.0)
+
+BUNDLED WITH
+   1.14.6

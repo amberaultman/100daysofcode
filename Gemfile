@@ -10,7 +10,7 @@ gem 'bourbon'
 gem 'neat'
 gem 'middleman-deploy', '~> 1.0'
 gem 'font-awesome-sass'
-
+gem 'eventmachine', '> 1.0.9'
 # For feed.xml.builder
 gem "builder", "~> 3.0"
 
